@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:negative": "playwright test --grep @negative"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.0.0"
+  }
+}

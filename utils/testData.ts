@@ -1,0 +1,46 @@
+export const TEST_DATA = {
+  ui: {
+    appLogoText: 'Swag Labs',
+    inventoryTitle: 'Products',
+    cartTitle: 'Your Cart',
+  },
+  inventory: {
+    expectedItemCount: 6,
+    sort: {
+      az: 'az',
+      za: 'za',
+      lohi: 'lohi',
+      hilo: 'hilo',
+    },
+    backpackDetailUrl: 'https://www.saucedemo.com/inventory-item.html?id=4',
+    minimumPrice: 0,
+    problemUserUnexpectedKeyword: 'sauce-backpack-1200x1500',
+  },
+  cart: {
+    cartUrl: 'https://www.saucedemo.com/cart.html',
+    singleBadgeCount: '1',
+    multiBadgeCount: '2',
+    emptyItemCount: 0,
+    multiItemCount: 2,
+  },
+  checkout: {
+    stepOneUrl: 'https://www.saucedemo.com/checkout-step-one.html',
+    stepTwoUrl: 'https://www.saucedemo.com/checkout-step-two.html',
+    completeUrl: 'https://www.saucedemo.com/checkout-complete.html',
+    stepOneTitle: 'Checkout: Your Information',
+    stepTwoTitle: 'Checkout: Overview',
+    completeText: 'Thank you for your order!',
+    firstName: 'John',
+    lastName: 'Doe',
+    postalCode: '12345',
+  },
+  errors: {
+    lockedOut: 'Sorry, this user has been locked out.',
+    usernameRequired: 'Epic sadface: Username is required',
+    passwordRequired: 'Epic sadface: Password is required',
+    invalidCredential: 'Epic sadface: Username and password do not match any user in this service',
+    checkoutFirstNameRequired: 'Error: First Name is required',
+    checkoutLastNameRequired: 'Error: Last Name is required',
+    checkoutPostalCodeRequired: 'Error: Postal Code is required',
+  },
+};
