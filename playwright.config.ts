@@ -24,8 +24,6 @@ export default defineConfig({
   // 테스트 파일 위치
   testDir: './tests',
 
-  outputDir: `test-results/${scenarioRunId}`,
-
   // 전체 테스트 타임아웃 (ms)
   timeout: 30_000,
 
