@@ -2,6 +2,10 @@
 
 ## 프로젝트 개요
 
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat&logo=playwright&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+
 이 프로젝트는 [Sauce Demo](https://www.saucedemo.com/) 사이트의 End-to-End 자동화 테스트를 위한 Playwright 기반 테스트 스위트입니다.
 
 **주요 기능 테스트:**
@@ -126,7 +130,8 @@ npx playwright codegen https://www.saucedemo.com/
 
 ## CI/CD 통합
 
-GitHub Actions 등 CI 환경에서 사용할 수 있습니다. 환경 변수는 GitHub Secrets로 설정하세요.
+GitHub Actions 연동 가능하며, 추후 추가 예정입니다.
+환경 변수는 GitHub Secrets로 설정하세요.
 
 ## 문제 해결
 
