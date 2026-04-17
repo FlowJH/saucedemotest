@@ -2,10 +2,6 @@
 
 ## 프로젝트 개요
 
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat&logo=playwright&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-
 이 프로젝트는 [Sauce Demo](https://www.saucedemo.com/) 사이트의 End-to-End 자동화 테스트를 위한 Playwright 기반 테스트 스위트입니다.
 
 **주요 기능 테스트:**
